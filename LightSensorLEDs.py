@@ -44,4 +44,5 @@ while True:
   else:
     GPIO.output(RED, False)
     GPIO.output(GREEN, False)
+  #End my code
 
