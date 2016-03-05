@@ -27,7 +27,7 @@ def RCtime (RCpin):
   
   GPIO.setup(RCpin, GPIO.IN)
   # This takes about 1 millisecond per loop cycle
-  while (GPio.input(RCpin) == GPIO.LOW):
+  while (GPIO.input(RCpin) == GPIO.LOW):
     reading += 1
   return reading
   
